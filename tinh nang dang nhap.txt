@@ -10,8 +10,3 @@ public class DITestDrive {
         Robot robotRemote = new Robot();
 
         robotRemote.setArmRemote
-        (pizzaCuttingArmRemote);
-
-        robotRemote.usePizzaCuttingArm();
-    }
-}
