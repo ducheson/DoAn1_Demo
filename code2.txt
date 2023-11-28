@@ -1,0 +1,17 @@
+package robotaggre;
+
+import PizzaCuttingArm;
+
+public class DITestDrive {
+    public static void main(String[] args){
+        PizzaCuttingArm
+        pizzaCuttingArmRemote = newPizzaCuttingArm();
+
+        Robot robotRemote = new Robot();
+
+        robotRemote.setArmRemote
+        (pizzaCuttingArmRemote);
+
+        robotRemote.usePizzaCuttingArm();
+    }
+}
